@@ -1,0 +1,51 @@
+/* footer.component.css */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer h4 {
+    color: #fff;
+  }
+  
+  .footer p {
+    color: #ccc;
+  }
+  
+  .list-inline-item a {
+    color: #ccc;
+  }
+  
+  .list-inline-item a:hover {
+    color: #fff;
+  }
+  
+  //header 
+  /* header.component.css */
+/* header.component.css */
+.astro-header {
+    font-size: 16px;
+  }
+  
+  .astro-logo {
+    width: 40px; /* Adjust the logo width as needed */
+    margin-right: 5px;
+  }
+  
+  .astro-name {
+    font-weight: bold;
+    font-size: 20px;
+    transform: skewX(-15deg); /* Incline the text */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .btn-warning:hover {
+    background-color: #ffcd39;
+    border-color: #ffcd39;
+  }
+  
