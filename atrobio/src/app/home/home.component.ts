@@ -11,7 +11,14 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  cardArray:any[] = [1,2,3,4];
+  cardArray:any[] = [{
+    tittle:"Free Kundali",
+    content:"kkk"
+  },
+  {
+    tittle:"Book Consultation",
+    content:"kkk"
+  }];
   courseArray:any[]=[1,2,3];
   videoId: string = 'https://www.youtube.com/watch?v=E_SbwSe15y0&list=RDO0I61W2pMss&index=4';
   videoUrl: SafeResourceUrl | undefined;

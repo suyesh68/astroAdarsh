@@ -26,16 +26,18 @@
 /* header.component.css */
 .astro-header {
     font-size: 16px;
+    background-color: #f8a240;
   }
   
   .astro-logo {
     width: 40px; /* Adjust the logo width as needed */
-    margin-right: 5px;
+    margin-right: 341px;
   }
   
   .astro-name {
     font-weight: bold;
     font-size: 20px;
+    color: black;
     transform: skewX(-15deg); /* Incline the text */
   }
   
@@ -48,4 +50,11 @@
     background-color: #ffcd39;
     border-color: #ffcd39;
   }
-  
+  .nav-content{
+    font-weight: bold;
+  }
+  .nav-content:hover {
+    font-weight: bold;
+    border: 1px solid gray;
+    background-color: #f8a240;
+  }

@@ -38,15 +38,18 @@
     </button>
 
   </div>
-
-  <div class="mt-2">
+<br><br>
+  <div class="mt-2 services">
     <h3 class="d-flex justify-content-center">Our Services</h3>
+    <br><br>
     <div class="row">
-    <div class="col-lg-3" *ngFor="let card of cardArray">
-    <div class="card" style="width: 18rem;">
+    <div class="col-lg-6" *ngFor="let card of cardArray">
+    <div class="card" style="width: 65%;
+    margin-left: 36px;
+    margin-bottom: 43px;">
       <img src="" class="card-img-top" alt="">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">{{card.tittle}}</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
@@ -63,10 +66,9 @@
 
     <!-- Text Column -->
     <div class="col-md-6">
-      <h2>Video Description</h2>
-      <p>
-        Insert your text content here. You can provide additional information about the video or any related details.
-      </p>
+      <h2>Journey</h2>
+      <p class="video-text">
+        For over 35 years, we've guided individuals like you towards a more fulfilling life.We translate ancient astrological practices like birth charts (kundali) into practical guidance for modern life.  Our goal is to empower you to navigate challenges, make informed choices, and live a more fulfilling life.  Join our supportive community and embark on a journey of self-discovery – from daily insights to in-depth consultations.  </p>
     </div>
   </div>
 </div>
@@ -105,24 +107,26 @@
     </div>
   </div>
 </div>
-<hr>
 
-<div class="container mt-4">
+
+<div class="container  consultation-box">
   <div class="row">
     
       <div class="col-lg-7">
         <h3>Book Consultation Call From The Best Astrologer In India!</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id mollitia deserunt quasi. Velit error voluptatum possimus aliquid esse optio, debitis corrupti sunt dolorem asperiores obcaecati architecto hic dignissimos! Quo ipsum ducimus ipsam voluptate reiciendis atque, laboriosam blanditiis nisi fugiat officiis, magnam esse adipisci sit temporibus qui aspernatur, veniam numquam et?</p>
-      <button class="btn btn-primary">Book</button>
+        <p>For over 35 years, we've guided individuals like you towards a more fulfilling life.We translate ancient astrological practices like birth charts (kundali) into practical guidance for modern life.  Our goal is to empower you to navigate challenges, make informed choices, and live a more fulfilling life.  Join our supportive community and embark on a journey of self-discovery – from daily insights to in-depth consultations.</p>
+      <button class="btn btn-primary">Book </button>
       </div>
       <div class="col-lg-5">
-        <img style="height: 200px; width: 400px;" src="https://i0.wp.com/astroarunpandit.org/wp-content/uploads/2024/02/WhatsApp-Image-2024-02-20-at-11.42.49_769cda03.jpg?resize=768%2C768&ssl=1">
+        <img style="height: 200px; width: 400px;     margin-left: 97px;
+        margin-top: 9px;
+    " src="assets\Astrologer Adarsh Vashisht.png">
       </div>
     
   </div>
 
 </div>
-<hr>
+<!-- <hr>
 <div class="mt-2 container">
   <h3 class="d-flex justify-content-center">Explore Our Courses</h3>
   <div class="row">
@@ -136,7 +140,7 @@
     </div>
   </div>
 </div></div>
-</div>
+</div> -->
 <hr>
 <div class="container">
   <h3 class="d-flex justify-content-center">Client testimony</h3>
