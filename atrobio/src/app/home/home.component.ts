@@ -39,10 +39,6 @@ export class HomeComponent {
       head:"120K+",
       body:"consultation given "
     },
-    {
-      head:"120K",
-      body:"Kundli Served"
-    },
   ]
   constructor(private sanitizer: DomSanitizer) { }
   

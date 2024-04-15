@@ -51,10 +51,15 @@
     border-color: #ffcd39;
   }
   .nav-content{
+    height: 75px;
+    padding-top: 15px;
     font-weight: bold;
   }
   .nav-content:hover {
+    height: 75px;
+    padding-top: 15px;
     font-weight: bold;
-    border: 1px solid gray;
-    background-color: #f8a240;
+   // border: 1px solid #f79525;
+    background-color: #f3cda1;
+    border-radius: 5%;
   }
